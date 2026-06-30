@@ -18,7 +18,7 @@ const getUsers = new schema({
         type:Number,
         default:0
     },
-    role:{
+    role:{  
         type:String,
         default:"user",
         required:true
